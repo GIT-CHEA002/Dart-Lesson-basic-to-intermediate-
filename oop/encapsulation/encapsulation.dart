@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 /**
  * we all know the rule of encapsulation : field must be private 
  * in encapsulation rule , we should hide data from the user 

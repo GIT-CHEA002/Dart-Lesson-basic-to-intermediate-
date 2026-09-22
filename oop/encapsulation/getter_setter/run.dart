@@ -11,22 +11,22 @@ void main() {
   // work with rectangle
   Rectangle rectangle = new Rectangle();
   print(rectangle.Area());
-  rectangle.Height = 1.2;
-  rectangle.Width = 1.2;
-  print(rectangle.Height);
-  print(rectangle.Width);
+  rectangle.height = 1.2;
+  rectangle.width = 1.2;
+  print(rectangle.height);
+  print(rectangle.width);
   print(rectangle.Area());
 
   // work with Person
 
   Person person = Person();
   person.Display();
-  person.Name = "Sokchea";
+  person.name = "Sokchea";
   person.Age = 21;
   person.Gender = "Male";
   print(person.Age);
   print(person.Gender);
-  print(person.Name);
+  print(person.name);
   person.Display();
   // person
   //     .age; // error because the age is private field in other person class files
