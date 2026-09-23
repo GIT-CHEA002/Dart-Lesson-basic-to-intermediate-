@@ -1,0 +1,26 @@
+// Part 2 : Removing Elements
+
+void main() {
+  var numMap = {
+    1: 100,
+    2: 200,
+    3: 300,
+    4: 400,
+    5: 500,
+    6: 600,
+    7: 700,
+    8: 800,
+    9: 900,
+    10: 1000,
+  };
+  print(numMap);
+
+  numMap.remove(3);
+  print(numMap);
+
+  numMap.removeWhere((ele, value) => value < 500);
+  print(numMap);
+
+  numMap.clear();
+  print(numMap);
+}
