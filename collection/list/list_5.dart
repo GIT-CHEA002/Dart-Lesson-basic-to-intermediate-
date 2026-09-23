@@ -22,7 +22,7 @@ void main() {
     6,
     10,
     20,
-  ];
+  ];                                                                                      
   print(newList);
 
   var newList2 = newList.map((ele) => ele * 2).toList();
